@@ -1,12 +1,5 @@
-# React + Vite
+# 📝 React + Vite 기반 메모 요약 웹앱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Groq API를 연동하여 작성한 메모 내용을 한 줄로 요약해주는 기능이 포함된 React + Vite 프로젝트입니다.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> 사용자는 메모를 작성하고, 버튼 클릭 한 번으로 Groq의 LLaMA3 모델을 활용해 요약 결과를 받아볼 수 있습니다.
