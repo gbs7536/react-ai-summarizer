@@ -21,7 +21,7 @@ const Siderbar = () => {
   console.log(notes);
   return (
     <div className="w-[230px] p-4">
-      <h1 className="text-2xl font-bold mb-4">Fastcampus Note</h1>
+      <h1 className="text-2xl font-bold mb-4">Reina Note</h1>
       <button
         className="bg-gray-400 hover:bg-gray-500 w-full py-2 px-4 rounded"
         onClick={handleClick}
