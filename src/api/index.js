@@ -9,7 +9,7 @@ export async function fetchOpenAI(content) {
         messages: [
           {
             role: "user",
-            content: `다음 내용을 요약해줘: ${content}`,
+            content: `다음 한국어 문장을 한국어로 간단하게 요약해줘.\n\n"${content}"`,
           },
         ],
         temperature: 0.7,
